@@ -10,7 +10,7 @@ class Song
   
   extend Memorable
   extend Findable
-  include Paramble
+  include Paramable
 
   def initialize
     @@songs << self
