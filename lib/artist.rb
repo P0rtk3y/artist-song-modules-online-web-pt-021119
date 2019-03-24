@@ -15,6 +15,7 @@ class Artist
   include Paramable
 
   def initialize
+    super
     @songs = []
   end
 
