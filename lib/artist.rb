@@ -15,7 +15,6 @@ class Artist
   include Paramable
 
   def initialize
-    @@artists << self
     @songs = []
   end
 
