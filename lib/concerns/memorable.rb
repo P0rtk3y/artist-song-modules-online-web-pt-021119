@@ -8,4 +8,6 @@ module Memorable
       all.count
     end
   end 
+  
+  module InstanceMethods
 end
